@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Splash from './Splash.js';
 import './App.css';
 
 class App extends Component {
@@ -9,9 +10,7 @@ class App extends Component {
           <h1>Arion</h1>
           <h3>An Instagram Tool</h3>
         </div>
-        <p className="App-intro">
-          <code>view metadata about your instagram photos!!!</code>
-        </p>
+        <Splash></Splash>
       </div>
     );
   }

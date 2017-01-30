@@ -8,7 +8,8 @@ coverage
 
 # production
 build
-
+# keys to success
+secrets
 # misc
 .DS_Store
 .env
