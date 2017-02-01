@@ -9,9 +9,9 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
   padding: 20px;
   color: white;
+    margin-bottom: 10px;
 }
 
 .App-intro {
@@ -22,3 +22,42 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+input{
+    text-align:center;
+}
+
+/* css for the shiny buttons */
+/*.btn {*/
+    /*cursor: pointer;*/
+    /*margin: 10px;*/
+    /*border-radius: 5px;*/
+    /*text-decoration: none;*/
+    /*padding: 10px;*/
+    /*font-size: 12px;*/
+    /*transition: .3s;*/
+    /*-webkit-transition: .3s;*/
+    /*-moz-transition: .3s;*/
+    /*-o-transition: .3s;*/
+    /*display: inline-block;*/
+    /*color: #222222;*/
+/*}*/
+
+/*.btn:hover {*/
+    /*cursor: url(http://cur.cursors-4u.net/symbols/sym-1/sym46.cur), auto;*/
+/*}*/
+
+/*.link {*/
+    /*text-decoration: none;*/
+/*}*/
+/*.red {*/
+    /*color: #e74c3c;*/
+    /*border: 2px #e74c3c solid;*/
+/*}*/
+
+/*.red:hover {*/
+    /*color: #fff;*/
+    /*background-color: #e74c3c;*/
+/*}*/
+/*a:visited {*/
+    /*color: #fff;*/
+/*}*/
