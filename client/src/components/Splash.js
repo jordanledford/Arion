@@ -15,7 +15,7 @@ class Splash extends Component {
                     <p className="username-lookup">
                         <code>Enter an Instagram username: </code>
 
-                        <input type="text" placeholder="jordanledford" onKeyPress={fetchUserDataFromInstagram}></input>
+                        <input type="text" placeholder="@jordanledford" onKeyPress={fetchUserDataFromInstagram}></input>
                         {/*<FlatButton*/}
                             {/*label="Ok"*/}
                             {/*primary={true}*/}
