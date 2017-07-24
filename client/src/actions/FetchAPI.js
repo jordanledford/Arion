@@ -11,7 +11,7 @@ export function fetchUserDataFromInstagram(username, ACCESS_TOKEN) {
     fetch(`https://api.instagram.com/v1/users/${username}/?access_token=${ACCESS_TOKEN}`, options)
         .then(function (res) {
             if (!res.data.id){
-                console.log(`couldn't find that user!!!`)
+                console.log(`couldn't find that user!!!`);
                 searchForInstagramUser(username, ACCESS_TOKEN);
             }
             console.log(res);
